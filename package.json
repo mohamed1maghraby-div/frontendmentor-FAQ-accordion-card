@@ -1,0 +1,36 @@
+{
+  "name": "frontend-mentor",
+  "version": "1.0.0",
+  "description": "this is first task for frontend-mentor for traning with pug,html,scss,css,js,gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed1maghraby-div/frontendmentor-FAQ-accordion-card.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "pug",
+    "scss",
+    "gulp"
+  ],
+  "author": "MOHAMED MAGHRABY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed1maghraby-div/frontendmentor-FAQ-accordion-card/issues"
+  },
+  "homepage": "https://github.com/mohamed1maghraby-div/frontendmentor-FAQ-accordion-card#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "gulp-pug": "^4.0.1"
+  }
+}

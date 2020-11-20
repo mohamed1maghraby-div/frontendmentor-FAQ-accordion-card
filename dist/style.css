@@ -1,0 +1,118 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif; }
+  body .main-page {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+    background-image: linear-gradient(#af67e9, #6565e7);
+    height: 100vh;
+    max-width: 1440px;
+    padding: 65px; }
+    body .main-page .container-outer {
+      position: relative;
+      background-color: #fff;
+      border-radius: 10px;
+      max-width: 920px;
+      margin: 0 auto; }
+      @media (max-width: 768px) {
+        body .main-page .container-outer {
+          margin: 60px 5% 0px 5%; } }
+      body .main-page .container-outer .box-img {
+        position: absolute;
+        top: 185px;
+        left: -128px;
+        z-index: 1; }
+        @media (max-width: 768px) {
+          body .main-page .container-outer .box-img {
+            display: none; } }
+      body .main-page .container-outer::before {
+        content: '';
+        position: absolute;
+        background-image: url(images/illustration-woman-online-mobile.svg);
+        background-repeat: no-repeat;
+        width: 266px;
+        height: 196px;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        top: -115px;
+        display: none; }
+        @media (max-width: 768px) {
+          body .main-page .container-outer::before {
+            display: block; } }
+      body .main-page .container-outer .container {
+        position: relative;
+        padding: 60px 5px;
+        overflow: hidden; }
+        @media (max-width: 768px) {
+          body .main-page .container-outer .container .item-left {
+            display: none; } }
+        body .main-page .container-outer .container .item-left img:first-child {
+          position: absolute;
+          left: -548px;
+          top: -303px;
+          -webkit-transform: none;
+          transform: none;
+          width: 100%;
+          height: auto; }
+        body .main-page .container-outer .container .item-left img:nth-child(2) {
+          position: absolute;
+          left: -85px; }
+        body .main-page .container-outer .container .item-left img:nth-child(3) {
+          position: absolute; }
+        body .main-page .container-outer .container .item-right {
+          width: 48%;
+          margin-left: auto;
+          padding: 0 20px; }
+          @media (max-width: 768px) {
+            body .main-page .container-outer .container .item-right {
+              width: auto; } }
+          body .main-page .container-outer .container .item-right h2 {
+            color: #1d1e35; }
+            @media (max-width: 768px) {
+              body .main-page .container-outer .container .item-right h2 {
+                text-align: center; } }
+          body .main-page .container-outer .container .item-right .question {
+            position: relative;
+            width: 80%; }
+            @media (max-width: 768px) {
+              body .main-page .container-outer .container .item-right .question {
+                width: 100%; } }
+            body .main-page .container-outer .container .item-right .question:hover h5 {
+              color: #f47c57;
+              cursor: pointer; }
+            body .main-page .container-outer .container .item-right .question h5 {
+              color: #787887;
+              font-weight: 400;
+              font-size: 13px;
+              padding: 20px 0;
+              margin: 0; }
+              body .main-page .container-outer .container .item-right .question h5::after {
+                content: '';
+                position: absolute;
+                right: 29px;
+                background-image: url(images/icon-arrow-down.svg);
+                height: 10px;
+                width: 10px;
+                background-repeat: no-repeat; }
+            body .main-page .container-outer .container .item-right .question .active {
+              color: #4a4b5e;
+              font-weight: 700; }
+              body .main-page .container-outer .container .item-right .question .active::after {
+                -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg); }
+            body .main-page .container-outer .container .item-right .question .answer {
+              display: none; }
+              body .main-page .container-outer .container .item-right .question .answer p {
+                font-size: 12px;
+                color: #787887; }
+            body .main-page .container-outer .container .item-right .question::after {
+              content: '';
+              position: absolute;
+              width: 98%;
+              height: 1px;
+              background-color: #e7e7e9; }
+    body .main-page .attribution {
+      text-align: center;
+      font-size: 12px; }
+      body .main-page .attribution a {
+        color: #fff;
+        text-decoration: none; }
